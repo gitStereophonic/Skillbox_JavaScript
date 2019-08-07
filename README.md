@@ -1,2 +1,2 @@
 # Skillbox_JavaScript
-My solutions from Skillbox
+My solutions from Skillbox. JavaScript Pro
