@@ -1,15 +1,19 @@
-var myName = prompt('Name, bitch!');
-var myBirthYear = prompt('Give me your birth year');
+var myName = prompt('What is your name?');
+var mySecondName = prompt('What is your surname?');
+
+var fullName = myName + ' ' + mySecondName;
+
+var myBirthYear = prompt('What is your birth year?');
 
 var currentYear = 2019;
 var age = currentYear - myBirthYear;
 
 if (age < 20) {
-  alert('Get out of here, you little ' + myName + '!');
+  alert('Hi, ' + fullName + '!');
 }
 else if (age >= 20 && age < 40) {
-  alert ('Hi, ' + myName + '! Welcome to hell!');
+  alert ('Hello, ' + fullName + '! Welcome to hell!');
 }
 else {
-  alert('Oh, mi scusi, ' + myName + '! Prendi la sabbia!')
+  alert('Oh, mi scusi, ' + fullName + '! Prendi la sabbia!')
 }
