@@ -11,7 +11,7 @@ var userAge = currentYear - userBirthYear;
 if (userAge < 20) {
   alert('Hi, ' + userFullName + '!');
 }
-if (userAge >= 20 && age < 40) {
+if (userAge >= 20 && userAge < 40) {
   alert ('Hello, ' + userFullName + '!');
 }
 if (userAge >= 40) {
